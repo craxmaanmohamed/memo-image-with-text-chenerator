@@ -1,0 +1,64 @@
+.text-block
+{
+    display: flex;
+    gap: 17px;
+}
+.text{
+    width: 90%;
+    height: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.main-class{
+    padding: 50px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(231, 233, 240);
+    border: 3px solid rgb(0, 47, 128);
+    color: rgb(0, 47, 128);
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.img{
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+    height: 90vh;
+}
+.imageANDtext{
+    position: relative;
+}
+.h2{
+    text-align: center;
+    
+    position: absolute;
+    width: 50%;
+    left: 27%;
+    color: white;
+    margin: 25px 0;
+    padding: 0 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow:        2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+    font-family: impact
+}
+.toptext{
+    top: 0;
+}
+.bottomtext{
+    bottom: 0;
+}
